@@ -1,0 +1,211 @@
+/* 2017-09-28 新界面样式 */
+body{
+  background-color: #eee;
+}
+#Banner{
+    width: 750px;
+    height: 420px;
+    background-image: url(../images/banner-img.png);
+    /* background-color: #000; */
+    margin: 0 auto;
+}
+/* #local{
+    width: 180px;
+    height: 40px;
+    background-color: #67809f;
+    border-radius: 20px;
+    z-index: 1;
+} */
+
+#header{
+
+}
+
+.header-loc{
+    
+}
+
+.localpin{
+
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  #indexnews{
+      margin-top: 5px;
+      background-color: #fff;
+      width: 100%;
+      height: 80px;
+      color: #67809f;
+  }
+  .indexnewstitle img{
+    width: 24px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  #indexnews h3{
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#0dbd9e;
+    float:left;
+    margin: 12px 0 0 5px;
+  }
+  .indexnewscontents p{
+    font-size: 14px;
+    padding: 34px 5px 0 15px;
+  }
+  .fenge01{
+    width: 3px;
+    height: 18px;
+    background-color: #0dbd9e;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  #booking{
+    margin-top: 5px;
+    background-color: #fff;
+    width: 100%;
+    height: 310px;
+    position: relative;
+  }
+  
+  .bookingtitle img{
+    width: 14px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  #booking h3{
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#67809f;
+    float:left;
+    margin: 12px 0 0 5px;
+  }
+  .fenge02{
+    width: 3px;
+    height: 20px;
+    background-color: #67809f;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+
+  #yunguiplace{
+    background-color: #67809f;
+    width: 120px;
+    height: 26px;
+    border-radius: 13px;
+    float: left;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 150px;
+    z-index: 2;
+    position: absolute;
+  }
+
+  #place img{
+    width: 10px;
+    margin-left: 8px;
+    margin-top: 6px;
+  }
+  #place p{
+    margin-top: -15px;
+    margin-left: 22px;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  #third{
+    margin-top: 5px;
+    background-color: #000;
+    width: 100%;
+    height: 580px;
+    color: #fff;
+  }
+  #GPSearch{
+    width: 100%;
+    height: 26px;
+    color: #fff;
+    z-index: 1;
+  }
+  #place{
+    background-color: #67809f;
+    width: 120px;
+    height: 26px;
+    border-radius: 13px;
+    float: left;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 2;
+    position: absolute;
+  }
+
+  #place img{
+    width: 10px;
+    margin-left: 8px;
+    margin-top: 6px;
+  }
+  #place p{
+    margin-top: -15px;
+    margin-left: 22px;
+    color: #fff;
+    font-size: 12px;
+  }
+  #search{
+    width: 200px;
+    height: 26px;
+    border-radius: 13px;
+    float: right;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 160px;
+    color: #67809f;
+    z-index: 3;
+    position: absolute;
+  }
+  #search img{
+    width: 14px;
+    margin-left: 8px;
+    margin-top: -2px;
+  }
+  #search p{
+    margin-top: -18px;
+    margin-left: 20px;
+  }
+  .topsearch{
+    border:none;
+    color: #67809f;
+    margin-top: 3px;
+    width: 150px;
+    font-size: 12px;
+  }

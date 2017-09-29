@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>优奈食尚 - 点餐服务 优奈网络技术服务（深圳）有限公司</title>
+    <link rel="shortcut icon" href="unai168.ico"/>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style0928.css" />
+    <script src="https://cdn.bootcss.com/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script type="text/javascript" src="js/newscript.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <!-- <header id="header" class="home-header">
+        <a class="header-loc" href="chooseplace">
+                    <i class="icon-loc-hollow"></i>
+                <span class="j-header-loc-txt header-loc-txt">
+                    <span class="j-header-loc-txt-marquee header-loc-txt-marquee" data-address="">新丰小学（宝安...）</span>
+                </span>
+                    <i class="icon-arrow-right-thin"></i>
+                </a>
+        <a href="/search/init" class="j-search-icon-wrap search-icon-wrap"><i class="icon-magnifier-1 search-icon"></i><span class="search-text">搜索菜品名</span></a>
+    </header> -->
+
+    <!-- 定位&搜索 -->
+    <!-- <div id="GPSearch">
+        <div id="place">
+            <img src="images/map-pin.png" />
+            <p>新丰小学（宝安...）</p>
+        </div>
+        <div id="search">
+            <img src="images/search.png" />
+            <input type="text" placeholder="搜索菜品名">
+        </div>
+    </div> -->
+
+    <!-- Banner广告轮播 -->
+    <div class="swiper-container">
+        <div id="place">
+            <img src="images/map-pin.png" />
+            <p>新丰小学（宝安..</p>
+        </div>
+        <div id="search">
+            <img src="images/search.png" />
+            <input class="topsearch" type="text" name="goodsearch" placeholder="搜索菜品名">
+        </div>
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner-img01.jpg" /></div>
+            <div class="swiper-slide"><img src="images/banner-img02.jpg" /></div>
+            <div class="swiper-slide"><img src="images/banner-img03.jpg" /></div>
+            <div class="swiper-slide"><img src="images/banner-img04.jpg" /></div>
+            <div class="swiper-slide"><img src="images/banner-img05.jpg" /></div>
+        </div>
+        <!-- 圆点标识切换 -->
+        <div class="swiper-pagination"></div>
+        <!-- 切换箭头 -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- 最新资讯 -->
+    <div id="indexnews">
+        <div class="indexnewstitle">
+            <img src="images/news.png" />
+            <div class="fenge01"></div>
+            <h3>最新消息</h3>
+        </div>
+        <div class="indexnewscontents">
+            <a href="https://www.baidu.com/"><p>月是故乡明，茶话思亲情!值此国庆中秋佳节优奈联合“妈妈的味...</p></a>
+        </div>
+        
+    </div>
+
+    <!-- 云柜点餐 -->
+    <div id="booking">
+        <div class="bookingtitle">
+            <img src="images/yungui.png" />
+            <div class="fenge02"></div>
+            <h3>云柜点餐</h3>
+        </div>
+
+        <div id="yunguiplace">
+            <img src="images/map-pin.png" />
+            <p>显示附近云柜</p>
+        </div>
+    </div>
+
+    <!-- 送餐服务 -->
+    <div id="third">
+        送餐服务
+    </div>
+
+    <!-- Banner切换js -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                enabled: true,
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+</body>
+</html>
