@@ -91,7 +91,7 @@ body{
     margin-top: 5px;
     background-color: #fff;
     width: 100%;
-    height: 310px;
+    height: 430px;
     position: relative;
   }
   
@@ -120,7 +120,7 @@ body{
   }
 
   #yunguiplace{
-    background-color: #67809f;
+    background-color: #017ddd;
     width: 120px;
     height: 26px;
     border-radius: 13px;
@@ -132,25 +132,257 @@ body{
     position: absolute;
   }
 
-  #place img{
+  #yunguiplace img{
     width: 10px;
     margin-left: 8px;
     margin-top: 6px;
   }
-  #place p{
+  #yunguiplace p{
     margin-top: -15px;
     margin-left: 22px;
     color: #fff;
     font-size: 12px;
   }
+  #boxshow{
+    width: 95%;
+    height: 180px;
+    background-color: #eee;
+    border-radius: 7px;
+  }
+  .boxshow{
+    float: left;
+    width: 365px;
+    height: 170px;
+    background-color: #eee;
+    border-radius: 7px;
+    margin:15px 5px;
+    box-shadow:0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  }
+  .box{
+    position: relative;
+  }
+  .box img{
+    width: 45%;
+    margin: 22px;
+  }
+  #bookingnotice{
+    background-color: #000;
+    opacity:0.5;
+    width: 120px;
+    height: 26px;
+    border-radius: 13px;
+    float: left;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    margin-top: -95px;
+    margin-left: 45px;
+    z-index: 2;
+    position: absolute;
+  }
+
+  #bookingnotice img{
+    width: 14px;
+    margin-left: 18px;
+    margin-top: 5px;
+  }
+  #bookingnotice p{
+    margin-top: -40px;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .boxinfo{
+
+  }
+  #purdate{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    margin-left: 195px;
+    margin-top: -140px;
+    background-color: #017ddd;
+    border-radius: 8px;
+  }
+  #purdate p{
+    color: #fff;
+    margin: 5px 0 0 8px;
+  }
+  #purdate img{
+    width: 20px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 8px;
+  }
+  #choosedate{
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    margin: -25px 0 0 77px;
+  }
+  #choosedate p{
+    color:#f20707;
+  }
+
+  #yunguino{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    margin-left: 195px;
+    margin-top: -100px;
+    background-color: #017ddd;
+    border-radius: 8px;
+  }
+  #yunguino p{
+    color: #fff;
+    margin: 5px 0 0 8px;
+  }
+  #yunguinombel{
+    width: 83px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 0 7px 7px 0;
+    margin: -25px 0 0 77px;
+  }
+  #yunguinombel p{
+    color:#333;
+  }
+
+  #yunguidizhi{
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    margin-left: 195px;
+    margin-top: -60px;
+    background-color: #017ddd;
+    border-radius: 8px;
+  }
+  #yunguidizhi p{
+    color: #fff;
+    margin: 15px 0 0 8px;
+  }
+  #xxdz{
+    width: 83px;
+    height: 46px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 0 7px 7px 0;
+    margin: -35px 0 0 77px;
+  }
+  #xxdz p{
+    color:#333;
+    margin-top: 3px;
+  }
+
+  #everyday{
+    width: 100%;
+    height: 210px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 220px;
+  }
+  #clock12{
+    width: 45%;
+    height: 240px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .clock12title{
+    width: 100%;
+    height: 30px;
+    background-color: #f94304;
+    border-radius: 7px 7px 0 0;
+  }
+  .clock12title img{
+    width: 20px;
+    margin: 5px 0 0 15px;
+  }
+  .clock12title p{
+    color: #fff;
+    margin: -20px 0 0 42px;
+  }
+  #clock12 ul li{
+    width: 168.75px;
+    height: 30px;
+    margin-left: -40px;
+    line-height: 30px;
+    text-align: center;
+  }
+  #morning{
+    float: left;
+    width: 45%;
+    height: 240px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .morningtitle{
+    width: 100%;
+    height: 30px;
+    background-color: #ff6e02;
+    border-radius: 7px 7px 0 0;
+  }
+  .morningtitle img{
+    width: 20px;
+    margin: 5px 0 0 15px;
+  }
+  .morningtitle p{
+    color: #fff;
+    margin: -20px 0 0 42px;
+  }
+  ul{
+    list-style: none;
+  }
+  #morning ul li{
+    width: 168.75px;
+    height: 30px;
+    margin-left: -40px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .os{
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  .js{
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  .fs{
+    border-radius: 0 0 5px 5px;
+  }
 
   #third{
     margin-top: 5px;
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     height: 580px;
     color: #fff;
   }
+
+  .thirdtitle img{
+    width: 20px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .thirdtitle h3{
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#00b7ee;
+    float:left;
+    margin: 12px 0 0 8px;
+  }
+  .fenge03{
+    width: 3px;
+    height: 18px;
+    background-color: #00b7ee;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+
   #GPSearch{
     width: 100%;
     height: 26px;
@@ -159,7 +391,7 @@ body{
   }
   #place{
     background-color: #67809f;
-    width: 120px;
+    width: 140px;
     height: 26px;
     border-radius: 13px;
     float: left;
