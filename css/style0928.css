@@ -397,6 +397,12 @@ body{
     height: 180px;
     position: absolute;
   }
+  #type02{
+    padding-top: 180px;
+  }
+  #type03{
+    padding-top: 20px;
+  }
   .typeimg{
     float: left;
     width: 40%;
@@ -460,10 +466,23 @@ body{
     border-radius: 0 0 5px 5px;
   }
   .typegoodslistmore{
-
+    margin-top: -20px;
   }
   .typegoodslistmore p{
     color: #67809f;
+    margin-left: 305px;
+    position: absolute;
+  }
+  .typegoodslistmore img{
+    margin-top: -5px;
+    margin-left: 340px;
+    width: 12px;
+  }
+  .fenge{
+    width: 100%;
+    height: 1px;
+    background-color: #67809f;
+    margin-top: -3px;
   }
   #GPSearch{
     width: 100%;
