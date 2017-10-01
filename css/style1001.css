@@ -1,0 +1,578 @@
+/* 2017-09-28 新界面样式 */
+body{
+  background-color: #eee;
+  width: 750px;
+  margin: 0 auto;
+}
+#Banner{
+    width: 750px;
+    height: 420px;
+    background-image: url(../images/banner-img.png);
+    /* background-color: #000; */
+    margin: 0 auto;
+}
+/* #local{
+    width: 180px;
+    height: 40px;
+    background-color: #67809f;
+    border-radius: 20px;
+    z-index: 1;
+} */
+
+#header{
+
+}
+
+.header-loc{
+    
+}
+
+.localpin{
+
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  #indexnews{
+      margin-top: 5px;
+      background-color: #fff;
+      width: 100%;
+      height: 80px;
+      color: #67809f;
+  }
+  .indexnewstitle img{
+    width: 24px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  #indexnews h3{
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#0dbd9e;
+    float:left;
+    margin: 12px 0 0 5px;
+  }
+  .indexnewscontents p{
+    font-size: 14px;
+    padding: 40px 5px 0 15px;
+  }
+  .fenge01{
+    width: 3px;
+    height: 18px;
+    background-color: #0dbd9e;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  #booking{
+    margin-top: 5px;
+    background-color: #fff;
+    width: 100%;
+    height: 480px;
+    position: relative;
+  }
+  
+  .bookingtitle img{
+    width: 14px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  #booking h3{
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#67809f;
+    float:left;
+    margin: 12px 0 0 5px;
+  }
+  .fenge02{
+    width: 3px;
+    height: 20px;
+    background-color: #67809f;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+
+  #yunguiplace{
+    background-color: #017ddd;
+    width: 120px;
+    height: 26px;
+    border-radius: 13px;
+    float: left;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 150px;
+    z-index: 2;
+    position: absolute;
+  }
+
+  #yunguiplace img{
+    width: 10px;
+    margin-left: 8px;
+    margin-top: 6px;
+  }
+  #yunguiplace p{
+    margin-top: -15px;
+    margin-left: 22px;
+    color: #fff;
+    font-size: 12px;
+  }
+  #boxshow{
+    width: 95%;
+    height: 180px;
+    background-color: #eee;
+    border-radius: 7px;
+  }
+  .boxshow{
+    float: left;
+    width: 96%;
+    height: 230px;
+    background-color: #eee;
+    border-radius: 7px;
+    margin: 15px;
+    box-shadow:0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  }
+  .box{
+    position: relative;
+  }
+  .box img{
+    width: 35%;
+    margin: 22px 40px;
+  }
+  #bookingnotice{
+    background-color: #000;
+    opacity:0.5;
+    width: 120px;
+    height: 26px;
+    border-radius: 13px;
+    float: left;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    margin-top: -125px;
+    margin-left: 105px;
+    z-index: 2;
+    position: absolute;
+  }
+
+  #bookingnotice img{
+    width: 14px;
+    margin-left: 18px;
+    margin-top: 5px;
+  }
+  #bookingnotice p{
+    margin-top: -40px;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .boxinfo{
+    margin-left: 150px;
+    margin-top: -60px;
+  }
+  #purdate{
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    margin-left: 195px;
+    margin-top: -140px;
+    background-color: #017ddd;
+    border-radius: 7px;
+  }
+  #purdate p{
+    color: #fff;
+    margin: 10px 0 0 8px;
+  }
+  #purdate img{
+    float: right;
+    margin-top: -18px;
+    margin-right: 10px;
+  }
+  #choosedate{
+    width: 196px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    margin: -30px 0 0 77px;
+  }
+  #choosedate p{
+    color:#f20707;
+  }
+
+  #yunguino{
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    margin-left: 195px;
+    margin-top: -80px;
+    background-color: #017ddd;
+    border-radius: 7px;
+  }
+  #yunguino p{
+    color: #fff;
+    margin: 10px 0 0 8px;
+  }
+  #yunguinombel{
+    width: 243px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 0 7px 7px 0;
+    margin: -30px 0 0 77px;
+  }
+  #yunguinombel p{
+    color:#333;
+  }
+
+  #yunguidizhi{
+    position: absolute;
+    width: 320px;
+    height: 60px;
+    margin-left: 195px;
+    margin-top: -20px;
+    background-color: #017ddd;
+    border-radius: 7px;
+  }
+  #yunguidizhi p{
+    color: #fff;
+    margin: 20px 0 0 8px;
+  }
+  #xxdz p{
+    margin: 20px 0 0 8px;
+    margin-top: 10px;
+  }
+  #xxdz{
+    width: 243px;
+    height: 60px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 0 7px 7px 0;
+    margin: -40px 0 0 77px;
+  }
+  #xxdz p{
+    color:#333;
+  }
+
+  #everyday{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 280px;
+  }
+  .liangcan{
+    width: 96%;
+    margin: 1px auto;
+  }
+  #clock12{
+    width: 48%;
+    height: 186px;
+    float: right;
+    margin-top: 10px;
+  }
+  .clock12title{
+    width: 100%;
+    height: 30px;
+    background-color: #f94304;
+    border-radius: 7px 7px 0 0;
+  }
+  .clock12title img{
+    width: 20px;
+    margin: 5px 0 0 15px;
+  }
+  .clock12title p{
+    color: #fff;
+    margin: -20px 0 0 42px;
+  }
+  #clock12 ul li{
+    height: 30px;
+    margin-left: -40px;
+    line-height: 30px;
+    text-align: center;
+  }
+  #morning{
+    float: left;
+    width: 48%;
+    height: 186px;
+    margin-top: 10px;
+  }
+  .morningtitle{
+    width: 100%;
+    height: 30px;
+    background-color: #ff6e02;
+    border-radius: 7px 7px 0 0;
+  }
+  .morningtitle img{
+    width: 20px;
+    margin: 5px 0 0 15px;
+  }
+  .morningtitle p{
+    color: #fff;
+    margin: -20px 0 0 42px;
+  }
+  ul{
+    list-style: none;
+  }
+  #morning ul li{
+    height: 30px;
+    margin-left: -40px;
+    line-height: 30px;
+    text-align: center;
+  }
+  #morning ul li span{
+    margin-left: 50px;
+  }
+
+  #clock12 ul li span{
+    margin-left: 50px;
+  }
+  .os{
+    background-color: #e5e5e5;
+  }
+  .js{
+    background-color: #ccc;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .fs{
+    border-radius: 0 0 5px 5px;
+  }
+
+  #third{
+    margin-top: 5px;
+    background-color: #fff;
+    width: 100%;
+    height: 580px;
+    color: #fff;
+    position: relative;
+  }
+  .thirdtitle{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+  }
+  .thirdtitle img{
+    width: 20px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .thirdtitle h3{
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#00b7ee;
+    float:left;
+    margin: 12px 0 0 8px;
+  }
+  .fenge03{
+    width: 3px;
+    height: 18px;
+    background-color: #00b7ee;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  #goodstype{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    padding-top: 45px;
+  }
+  #type01{
+    width: 100%;
+    height: 180px;
+    position: absolute;
+  }
+  #type02{
+    padding-top: 180px;
+  }
+  #type03{
+    padding-top: 20px;
+  }
+  .typeimg{
+    float: left;
+    width: 40%;
+  }
+  .typeimg img{
+    width: 140px;
+    margin: 0 0 0 10px;
+    position: relative;
+  }
+  .typename{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #00b7ee;
+    margin: -92px 0 0 10px;
+    text-align: center;
+    padding-top: 4px;
+  }
+  .typegoodslist{
+    width: 60%;
+    height: 92px;
+    float: right;
+  }
+  .typegoodslist ul{
+    color: #67809f;
+    line-height: 23px;
+  }
+  .typegoodslist ul li .os{
+    line-height: 25px;
+    border-radius: 0;
+  }
+  .typegoodslist ul li{
+    margin-left: -40px;
+    padding-left: 5px;
+  }
+  .typegoodslist ul li span{
+    margin-left: 10px;
+  }
+  .typetopshow{
+    width: 100%;
+    height: 60px;
+    /* background-color: #000; */
+    margin-top: 100px;
+  }
+  .typetopshow01{
+    width: 24%;
+    float: left;
+    margin-left: 3px;
+  }
+  .typetopshow01 img{
+    width: 90px;
+    position: relative;
+  }
+  .typetopshow01name{
+    background-color: #67809f;
+    margin: -21px 0 0 1px;
+    position: absolute;
+    width: 88px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+  }
+  .typegoodslistmore{
+    margin-top: -20px;
+  }
+  .typegoodslistmore p{
+    color: #67809f;
+    margin-left: 305px;
+    position: absolute;
+  }
+  .typegoodslistmore img{
+    margin-top: -5px;
+    margin-left: 340px;
+    width: 12px;
+  }
+  .fenge{
+    width: 100%;
+    height: 1px;
+    background-color: #67809f;
+    margin-top: -3px;
+  }
+  #GPSearch{
+    width: 100%;
+    height: 26px;
+    color: #fff;
+    z-index: 1;
+  }
+  #place{
+    background-color: #67809f;
+    width: 140px;
+    height: 26px;
+    border-radius: 13px;
+    float: left;
+    font-family: "Microsoft Yahei", "微软雅黑", 'Arial Unicode MS', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 2;
+    position: absolute;
+  }
+
+  #place img{
+    width: 10px;
+    margin-left: 8px;
+    margin-top: 6px;
+  }
+  #place p{
+    margin-top: -15px;
+    margin-left: 22px;
+    color: #fff;
+    font-size: 12px;
+  }
+  #search{
+    width: 200px;
+    height: 26px;
+    border-radius: 13px;
+    float: right;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 160px;
+    color: #67809f;
+    z-index: 3;
+    position: absolute;
+  }
+  #search img{
+    width: 14px;
+    margin-left: 8px;
+    margin-top: -2px;
+  }
+  #search p{
+    margin-top: -18px;
+    margin-left: 20px;
+  }
+  .topsearch{
+    border:none;
+    color: #67809f;
+    margin-top: 3px;
+    width: 150px;
+    font-size: 12px;
+  }
+
+  #cailist{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+  }
+  .cai01{
+    float: left;
+    width: 100%;
+    height: 170px;
+  }
+  .caipic{
+
+  }
+  .caipic img{
+    width: 30%;
+    margin: 15px;
+  }
+  .cainfo{
+
+  }
