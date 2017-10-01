@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>优奈食尚 - 点餐服务 优奈网络技术服务（深圳）有限公司</title>
+    <link rel="shortcut icon" href="unai168.ico"/>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style0928.css" />
+    <script src="https://cdn.bootcss.com/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script type="text/javascript" src="js/newscript.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <!-- Banner广告轮播 -->
+    <div class="swiper-container">
+        <div id="place">
+            <img src="images/map-pin.png" />
+            <p>新丰小学（宝安..</p>
+            <img style="width: 6px;float: right;margin-top: -26px;margin-right: 12px;" class="chooseplace" src="images/goto.png" />
+        </div>
+        <div id="search">
+            <img src="images/search.png" />
+            <input class="topsearch" type="text" name="goodsearch" placeholder="搜索菜品名">
+        </div>
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/yunguishijing.jpg" /></div>
+        </div>
+    </div>
+
+    <!-- 云柜菜品列表 -->
+    <div id="cailist">
+        
+        <div class="boxshow">
+            <div class="box">
+                <img src="images/0755010203/goods01.png" />
+            </div>
+        </div>
+
+        <div class="boxinfo">
+            <div id="purdate">
+                <p>订餐日期：</p>
+                <img src="images/calendar.png" />
+                <div id="choosedate">
+                    <p>09-29</p>
+                </div>
+            </div>
+            <div id="yunguino">
+                <p>云柜编号：</p>
+                <div id="yunguinombel">
+                    <p>07550102</p>
+                </div>
+            </div>
+            <div id="yunguidizhi">
+                <p>云柜地址：</p>
+                <div id="xxdz">
+                    <p>宝安新一代信息技术</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner切换js -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                enabled: true,
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+</body>
+</html>
