@@ -1,6 +1,8 @@
 /* 2017-09-28 新界面样式 */
 body{
   background-color: #eee;
+  width: 750px;
+  margin: 0 auto;
 }
 #Banner{
     width: 750px;
@@ -547,4 +549,19 @@ body{
     background-color: #fff;
     width: 100%;
     height: 300px;
+  }
+  .cai01{
+    float: left;
+    width: 100%;
+    height: 170px;
+  }
+  .caipic{
+
+  }
+  .caipic img{
+    width: 30%;
+    margin: 15px;
+  }
+  .cainfo{
+
   }
