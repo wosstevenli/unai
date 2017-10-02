@@ -467,7 +467,7 @@ body{
   }
   .typetopshow01name{
     background-color: #67809f;
-    margin: -21px 0 0 1px;
+    margin: -21px 0 0 0;
     position: absolute;
     width: 88px;
     text-align: center;
